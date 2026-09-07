@@ -10,7 +10,6 @@ var context = paper.getContext('2d');
 // Canvasの幅と高さを指定
 paper.width = 400;
 paper.height = 200;
- // 円を描画
 context.beginPath();
 context.moveTo(200, 100);
 context.arc(200, 150, 50, 0, Math.PI*2, false);
