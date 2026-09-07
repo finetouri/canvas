@@ -16,15 +16,3 @@ context.fillStyle = '#429955';
 // 正方形を描く
 // fillRect(x, y, w, h) ... xyが座標、whは幅と高さ
 context.fillRect(50, 50, 100, 100);
- // 緑の正方形を描画
-context.fillStyle = '#429955';
-context.fillRect(50, 50, 100, 100);
-// 線を描きます宣言
-context.beginPath();
-// 線をどこから描くか宣言
-context.moveTo(240,80);
-// 線をどこまで描くか宣言
-context.lineTo(320,160);
-// 線の色を指定して、描画じゃ！！！
-context.strokeStyle = '#429955';
-context.stroke();
